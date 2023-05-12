@@ -1,0 +1,234 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*=========================== menu css ========================= */
+.div1{
+    width:80%;
+    height:auto;
+    background-color: rgb(155, 223, 235);
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 5px;
+    padding-bottom: 0.2%;
+}
+
+.CONTACT{
+    font-size: 35px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-left:70px;
+}
+
+hr{
+    margin-left:70px ;
+    margin-right: 70px;
+    margin-top:20px ;
+    color: rgb(48, 43, 43);
+}
+
+.div2{
+    background-color: aliceblue;
+    height: auto;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 3%;
+    padding-bottom: 2%;
+}
+.add{
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    padding-top:15px;
+    padding-left:15px;
+}
+.add1{
+    font-size: 22px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    padding-top:15px;
+    padding-left:15px;
+}
+.col-1{
+    flex: 2;
+}
+.col-2{
+    flex: 3;
+}
+.col-3{
+    flex: 1;
+}
+.num{
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    color: rgb(201, 25, 49);
+}
+
+.email{
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    color: rgb(6, 124, 124);
+}
+.icon_map{
+    font-size: 35px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    color: rgb(201, 25, 49);
+}
+.btn_icon{
+    display:flex;
+    gap: 10px;
+    margin-left: 10px;
+    font-size: 30px;
+}
+.fa-square-facebook{
+    color: rgb(13, 13, 153);
+}
+.fa-square-twitter{
+    color: rgb(17, 171, 218);
+}
+.fa-linkedin{
+    color: rgb(36, 109, 131);
+}
+/* ===================== form css =========================== */
+span{
+    color: red;
+    font-size: 20px;
+}
+.div3{
+    background-color: aliceblue;
+    height: auto;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 3%;
+    margin-bottom: 20%;
+}
+.section{
+    display: flex;
+    padding-top: 15px;
+}
+.section .section-1{
+    flex: 1.1;
+}
+section .section-2{
+    flex: 1;
+}
+.map_size{
+    height: 440px;
+    width: 440px;
+    padding: 10px 10px 10px 10px;
+    margin-right: 10px;
+}
+.section .section-1 .row3{
+    display: flex;
+    padding-left:5px;
+    padding-top: 15px;
+}
+.section .section-1 .row3 .row3_col-1{
+    flex: 1;
+
+}
+.section .section-1 .row3.row3_col-2{
+    flex: 1;
+}
+.section .section-1 .row4{
+    display: flex;
+    padding-left:5px;
+    padding-top: 30px;
+}
+.section .section-1 .row4 .row4_col-1{
+    flex: 1;
+}
+.section .section-1 .row4 .row4_col-2{
+    flex: 1;
+    margin-left:60px;
+}
+.input_text{
+    height: 40px;
+    width: 220px;
+    border-radius: 5px;
+    padding: 0px 5px;
+    font-size: 20px;
+    border: 0.5px solid rgb(145, 144, 144);
+
+}
+.section .section-1 .row5{
+    display: flex;
+    padding-left:5px;
+    padding-top: 30px;
+}
+.Message_text{
+    border-radius: 5px;
+    padding: 0px 5px;
+    padding-top: 10px;
+    font-size: 20px;
+    border: 0.5px solid rgb(145, 144, 144);
+}
+.Message_text:focus-visible{
+    outline: none;
+}
+input:focus-visible{
+    outline: none;
+}
+button{
+    height: 40px;
+    width: 80px;
+    margin-left:5px;
+    margin-top: 25px;
+    border-radius: 5px;
+    padding: 0px 5px;
+    font-size: 20px;
+    color: aliceblue;
+    background-color:rgb(201, 25, 49);
+    border: 0.5px solid rgb(145, 144, 144);
+}
+button:hover{
+    background-color: rgb(173, 51, 67);
+}
+
+
+/* ================== menu media screen ===================== */
+@media (max-width:576px){
+    .row{
+        display: block;
+    }
+    .col-2{
+        margin-top: 15px;
+    }
+    .col-3{
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:900px){
+    .row{
+        display: block;
+    }
+    .col-2{
+        margin-top: 15px;
+    }
+    .col-3{
+        margin-top: 15px;
+    }
+}
+
+/* ================== form media screen ===================== */
+
+@media(max-width:576){
+   
+ 
+}
+
+@media(max-width:900){
+    
+}

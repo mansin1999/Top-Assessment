@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Business_style.css">
+    <script src="Business_blank_value.js"></script>
+    <script src="Business_reg_ex.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="div1">
+        <p class="CONTACT">CONTACT US</p>
+        <hr>
+        <!-- ========================= menu =========================== -->
+        <div class="div2">
+            <p class="add">
+                ADDRESS:
+            </p>
+            <div class="row">
+
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-auto">
+                    <div class="add1">Saint marco street,6th </div>
+                    <div class="add1">floor,tokyo, japan,123456</div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-auto">
+                    <div class="num"><i class="fa-solid fa-square-phone"></i>+91 1234567890</div>
+                    <div class="email"><i class="fa-solid fa-envelope"></i>example@gmail.com</div>
+                </div>
+                <div class="col-xl-1 col-lg-1 col-md-6 col-sm-12 col-auto">
+                    <p class="icon_map"><i class="fa-solid fa-location-dot"></i></p>
+                </div>
+                
+            </div>
+        </div>
+
+        <!-- ============================= form ========================== -->
+        <section>
+            <div class="div3">
+                <div class="section">
+
+                    <div class="section-1 ">
+                        <form action="#">
+
+                                <div class="row3">
+                                    <div class="row3_col-1 ">
+                                        <input type="text" placeholder="Name:" class="input_text" id="name"  onblur="return  check_value(this,'msg1')" onkeyup=" return  reg_ex_name(this,'msg1')"><br>
+                                        <span id="msg1"></span>
+                                    </div>
+                                    <div class="row3_col-2 ">
+                                        <input type="text" placeholder="Company:" class="input_text" id="company" onblur="return  check_value(this,'msg2')"><br>
+                                        <span id="msg2"></span>
+                                    </div>
+                                </div>
+            
+                                <div class="row4">
+                                    <div class="row4_col-1">
+                                        <input type="email" placeholder="Email:" class="input_text" id="email" onblur="return  check_value(this,'msg3')" onkeyup="return reg_ex_email(this, 'msg3')"><br>
+                                        <span id="msg3"></span>
+                                    </div>
+                                    <div class="row4_col-2">
+                                        <input type="text" placeholder="Mobile:" class="input_text" maxlength="10" id="mon" onblur= "return mobile_length()" onkeyup="return mobile_ex(this, 'msg4')"><br>
+                                        <span id="msg4"></span>
+                                    </div>
+                                </div>
+            
+                                <div class="row5">
+                                    <div class="row5_col-1">
+                                        <textarea rows="6" cols="39" placeholder="Message:" class="Message_text" id="message" onblur="return  check_value(this,'msg5')"></textarea><br>
+                                        <span id="msg5"></span>
+                                    </div>
+            
+                                </div>
+            
+                                <div class="btn">
+                                    <button type="button"  onclick="return blank_value()">Send</button>
+                                </div>
+            
+                            </div>
+                        </form>
+
+
+                    
+                    <div class="section-2"><iframe class="map_size" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.553166742107!2d-0.13281452371374622!3d51.52141320967997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b2e1672c317%3A0x2eb39a3b3d33d9f5!2sMalet%20St%2C%20London%2C%20UK!5e0!3m2!1sen!2sin!4v1683051501932!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <div class="btn_icon"><i class="fa-brands fa-square-facebook"></i><i class="fa-brands fa-square-twitter"></i><i class="fa-brands fa-linkedin"></i><i class="fa-brands fa-square-github"></i></div>
+                    </div>
+                    
+                    
+
+                </div>
+            </div>
+        </section>
+
+    </div>
+</body>
+</html>
+
