@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corp Vision</title>
+
+
+    <!---------- jquery cdn --------------->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+    <!---------- bxslider js cdn ----------->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
+
+    <!---------- bxslider css cdn ----------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css">
+
+    <!---------- Link Swiper's CSS ---------->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!---------- bootstrap ----------------->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"> -->
+
+    <!-- ================== css file ========================= -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- ================== media query css ================== -->
+    <link rel="stylesheet" href="Media_query.css">
+
+
+    <!-- ================== font-awesome cdn ================== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+     
+    <!-- ================== animate style cdn ================= -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!-- ================== bootstrap cdn ===================== -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+    <!-- top-navigation -->
+    <header>
+        <div class="container">
+            <div class="header-p">
+                <nav>
+                    <div class="logo">
+                        <h6>
+                            <span class="fa-solid fa-align-right"></span>
+                            Corp Vision
+                            <p class="logo-t">vision to your future</p>
+                        </h6>
+                        
+                    </div>
+                    <!-- <div class="nav2">
+                        <div class="nav-flex">
+                            <a href="#">home</a>
+                            <a href="#">about</a>
+                            <a href="#">service</a>
+                            <a href="#">pages</a>
+                            <a href="#">contact</a>
+                        </div>
+                    </div> -->
+
+                    <div class="nav">
+                        <ul>
+                            <div class="nav-flex">
+                                <li><a href="">home</a></li>
+                                <li><a href="">about</a></li>
+                                <li><a href="">service</a></li>
+                                <li><a href="">pages</a></li>
+                                <li><a href="">contact</a></li>
+                            </div>
+                        </ul>
+                    </div>
+
+                    
+                    <div class="theme">
+                        <div class="search">
+                            <span class="fa-solid fa-search"></span>
+                        </div>
+                        <div class="theme-i">
+                            <span class="fa-solid fa-moon"></span>
+                        </div>
+                        <div class="menu-bar">
+                            <button class="disp-btn">
+                                <span class="fa-solid fa-bars"></span>
+                            </button>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <script src="toggle.js"></script>
+
+    <!-------------------- home page ------------------->
+    
+        <div class="main">
+            <div class="image1">
+                <div class="homepage-text" >
+                    <h1>Digital trasformation driven by technology</h1>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et aut atque velit, quos cumque sed.</p>
+                   <button>get started</button>
+               </div >
+            </div>
+            <div class="image2">
+                <div class="homepage-text " >
+                    <h1>Digital trasformation driven by technology</h1>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et aut atque velit, quos cumque sed.</p>
+                   <button>get started</button>
+               </div >
+            </div>
+            <div class="image3">
+                <div class="homepage-text" >
+                    <h1>Digital trasformation driven by technology</h1>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et aut atque velit, quos cumque sed.</p>
+                   <button>get started</button>
+               </div >
+            </div>
+            <div class="image4">
+                <div class="homepage-text" >
+                    <h1>Digital trasformation driven by technology</h1>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et aut atque velit, quos cumque sed.</p>
+                   <button>get started</button>
+               </div >
+            </div>
+        </div>
+        <script>
+            $(function(){
+                $('.main').bxSlider({
+                    mode: 'fade',
+                    captions: true,
+                    pager:true,   
+                    controls:true,
+                    auto:true,
+                    autoHover:false,
+                    speed:1000,
+                });
+            });
+
+        </script>
+        <!-------------------- about us -------------------->
+        <section class="about-us">
+            <div class="container">
+                <div class="about-p">
+                    <div class="about-flex">
+                        <div class="about-left">
+                            <h6>About Us</h6>
+                            <h1>We make the best strategies for you, Enhancing your success</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ullamco laboris nisi ut ex ea. </p>
+                            <ul>
+                                <li><span class="fa-solid fa-circle-check"></span>
+                                    UI/UX Design and Development</li>
+                                <li><span class="fa-solid fa-circle-check"></span>
+                                    Branding Design and Identity</li>
+                                <li><span class="fa-solid fa-circle-check"></span >
+                                    Mobile App Design and Development</li>
+                            </ul>
+                        </div>
+                        <div class="about-right">
+                            <div class="gird-box">
+                                <div class="img1">
+                                    <img src="../img/img1.jpg" alt="">
+                                </div>
+                                <div class="img2">
+                                    <img src="../img/img2.jpg" alt="">
+                                </div>
+                                <div class="img3">
+                                    <img src="../img/img3.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+   <!-------------------- our work -------------------->
+    <section>
+        <div class="ourwork">
+            <div class="container">
+                <div class="work-p">
+                    <div class="work-box">
+                        <div class="left-box">
+                            <h5>Every day brings new challenges</h5>
+                            <h1>Creative agency focused on vision, product and people</h1>
+                            <p>Aurabitur id gravida risus. Fusce eget ex fermentum, ultricies nisi ac sed, lacinia est. Quisque ut lectus consequat, venenatis eros et, sed commodo risus. Nullam sit amet laoreet elit. Suspendisse non init magnaa velit efficitur, dolor eget ex fermentum. </p>
+                            <button>Discover more</button>
+
+                        </div>
+                        <div class="right-box">
+                            <div class="grid-box">
+                                <div class="work-g">
+                                    <div>
+                                        <img src="../img/w1.png" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <h2><a href="">our process</a></h2>
+                                    </div>
+                                </div>
+                                <div class="work-g">
+                                    <div>
+                                        <img src="../img/w2.png" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <h2><a href="">how we help</a></h2>
+                                    </div>
+                                </div>
+                                <div class="work-g">
+                                    <div>
+                                        <img src="../img/w3.png" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <h2><a href="">UI/UX Design</a></h2>
+                                    </div>
+                                </div>
+                                <div class="work-g">
+                                    <div>
+                                        <img src="../img/w4.png" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <h2><a href="">Creative ideas</a></h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-------------------- our Services ---------------->
+    <section class="services">
+        <div class="container">
+            <div class="ser-p">
+                <div class="ser-title">
+                    <h1>Always there for your care, our Services</h1>
+                </div>
+                <div class="service-box">
+                    <div class="service-d">                                                     
+                        <div class="top-img">
+                            <img src="../img/s1.jpg" alt="">
+                        </div>
+                        <div class="imag-text">
+                            <h3><a href="">Work  Expertise</a></h3>
+                        </div>
+                        <div class="text">
+                            <p>Venenatis eros et, sed commodo risus. Nullam sit amet laoreet elit.</p>
+                            <a href="">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="service-d">                                                     
+                        <div class="top-img">
+                            <img src="../img/s2.jpg" alt="">
+                        </div>
+                        <div class="imag-text">
+                            <h3><a href="">Product Development</a></h3>
+                        </div>
+                        <div class="text">
+                            <p>Venenatis eros et, sed commodo risus. Nullam sit amet laoreet elit.</p>
+                            <a href="">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="service-d">                                                     
+                        <div class="top-img">
+                            <img src="../img/s3.jpg" alt="">
+                        </div>
+                        <div class="imag-text">
+                            <h3><a href="">Website Development</a></h3>
+                        </div>
+                        <div class="text">
+                            <p>Venenatis eros et, sed commodo risus. Nullam sit amet laoreet elit.</p>
+                            <a href="">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-------------------- our Gallery ---------------->
+    <section class="gallery">
+        <div class="container">
+            <div class="gallery-p">
+                <div class="gallery-title">
+                    <h6>Our Gallery</h6>
+                    <h1>Successful projects we've done</h1>
+                </div>
+                <div class="gallery-grid">
+                    <div class="grid-box">
+                         <div class="image-animate">
+                             <img src="../img/c2.jpg" alt="">
+                             <div class="over-text">
+                                 <div class="text">
+                                    <h2>Project 1</h2>
+                                    <p>Quisque ut lectus, eros et, sed commodo risus.</p>
+                                </div>
+                             </div>
+                         </div>
+                    </div>
+                    <div class="grid-box">
+                        <div class="image-animate">
+                            <img src="../img/c1.jpg" alt="">
+                            <div class="over-text">
+                                <div class="text">
+                                   <h2>Project 2</h2>
+                                   <p>Quisque ut lectus, eros et, sed commodo risus.</p>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-box">
+                        <div class="image-animate">
+                            <img src="../img/c3.jpg" alt="">
+                            <div class="over-text">
+                                <div class="text">
+                                   <h2>Project 3</h2>
+                                   <p>Quisque ut lectus, eros et, sed commodo risus.</p>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-box">
+                        <div class="image-animate">
+                            <img src="../img/c4.jpg" alt="">
+                            <div class="over-text">
+                                <div class="text">
+                                   <h2>Project 4</h2>
+                                   <p>Quisque ut lectus, eros et, sed commodo risus.</p>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-box">
+                        <div class="image-animate">
+                            <img src="../img/c5.jpg" alt="">
+                            <div class="over-text">
+                                <div class="text">
+                                   <h2>Project 5</h2>
+                                   <p>Quisque ut lectus, eros et, sed commodo risus.</p>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-box">
+                        <div class="image-animate">
+                            <img src="../img/c6.jpg" alt="">
+                            <div class="over-text">
+                                <div class="text">
+                                   <h2>Project 6</h2>
+                                   <p>Quisque ut lectus, eros et, sed commodo risus.</p>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div class="logo">
+                    <div class="logoimg">
+                        <img src="../img/logo1.png" alt="">
+                    </div>
+                    <div class="logoimg">
+                        <img src="../img/logo2.png" alt="">
+                    </div>
+                    <div class="logoimg">
+                        <img src="../img/logo3.png" alt="">
+                    </div>
+                    <div class="logoimg">
+                        <img src="../img/logo4.png" alt="">
+                    </div>
+                    <div class="logoimg">
+                        <img src="../img/logo5.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---------------------  success ------------------>
+    <section class="successStory">
+        <div class="container-s">
+            <div class="success-p">
+                <div class="success-flex">
+                    <div class="leftside">
+                        <img src="../img/s.jpg" alt="">
+                    </div>
+                    <div class="rightside">
+                        <div class="success_title">
+                            <h6>our gallary</h6>
+                            <h1>Web design, marketing & SEO solutions that get result</h1>
+                        </div>
+                        <div class="range 1">
+                            <label for="disabledRange" class="form-label"><div class="fn">Marketing</div><div class="f1"> 80%</div></label>
+                            <input type="range" class="form-range" id="disabledRange" disabled>
+                        </div>
+                        <div class="range 1">
+                            <label for="disabledRange" class="form-label"><div class="fn">Responsive Web design</div><div class="f2"> 95%</div></label>
+                            <input type="range" class="form-range" id="disabledRange" disabled>
+                        </div>
+                        <div class="range 1">
+                            <label for="disabledRange" class="form-label"><div class="fn">Analytics</div><div class="f3"> 65%</div></label>
+                            <input type="range" class="form-range" id="disabledRange" disabled>
+                        </div>
+                        <div class="range 1">
+                            <label for="disabledRange" class="form-label"><div class="fn">Web Development</div><div class="f4"> 85%</div></label>
+                            <input type="range" class="form-range" id="disabledRange" disabled>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ <!------------------------- review ---------------------------->  
+ <!-- <section class="reviewSec"> -->
+    <div class="container">
+        <div class="review-p">
+            <div class="top-title">
+                <p>happy clients feedback</p>
+                <h1>reviews & testimonials</h1>
+            </div>
+            <div class=".reviewSwiper">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="p-title">
+                            <p>Lorem ipsum dolor sit amet elit. Velit beatae laudantium voluptate rem ullam dolore nisi voluptatibus esse quasi,   doloribus tempora. Dolores molestias adipisci dolo amet!. Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse architecto est ea sunt eligendi cum?</p>
+                            <div class="biodata">
+                                <div class="image">
+                                <img src="../img/i1.jpg" alt="">
+                                </div>
+                                <div class="biotext">
+                                    <div class="bt-1">John Wilson</div>
+                                    <div class="bt-2">Student</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="swiper-slide">
+                        <div class="p-title">
+                            <p>Lorem ipsum dolor sit amet elit. Velit beatae laudantium  voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora. Dolores molestias adipisci dolo amet!.</p>
+                            <div class="biodata">
+                                <div class="image">
+                                <img src="../img/i3.jpg" alt="">
+                                </div>
+                                <div class="biotext">
+                                    <div class="bt-1">Julia sakura</div>
+                                    <div class="bt-2">Student</div>
+                                </div>
+                            </div>
+                        </div>        
+                    </div>
+                
+                    <div class="swiper-slide">
+                        <div class="p-title">
+                            <p>Lorem ipsum dolor sit amet elit. Velit beatae laudantium voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora. Dolores molestias adipisci dolo amet!.</p>
+                            <div class="biodata">
+                                <div class="image">
+                                <img src="../img/i4.jpg" alt="">
+                                </div>
+                                <div class="biotext">
+                                    <div class="bt-1">Roy Linderson</div>
+                                    <div class="bt-2">Student</div>
+                                </div>
+                            </div>
+                        </div>        
+                    </div>
+                
+                    <div class="swiper-slide">
+                        <div class="p-title">
+                            <p>Lorem ipsum dolor sit amet elit. Velit beatae laudantium voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora. Dolores molestias adipisci dolo amet!.</p>
+                            <div class="biodata">
+                                <div class="image">
+                                <img src="../img/i2.jpg" alt="">
+                                </div>
+                                <div class="biotext">
+                                    <div class="bt-1">Smith Johnson</div>
+                                    <div class="bt-2">Student</div>
+                                </div>
+                            </div>
+                        </div>        
+                    </div>
+                
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    </div>
+            </div>    
+        </div>
+    </div>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+        pagination: {
+            el: ".swiper-pagination",
+            dynamicBullets: true,
+        },
+        });
+    </script>
+<!-- </section> -->
+
+<!-- ----------------------------- our articles ------------------------------ -->
+
+
+<section class="articles">
+    <div class="container">
+        <div class="articles-p">
+            <div class="top-title">
+                <h6>LATEST NEWS</h6>
+                <h1>Our insight and articles</h1>
+            </div>
+  
+            </div>
+            <div class="grid-box">
+                <div class="gird-articales">
+                    <div class="image">
+                       <img src="../img/a1.jpg" alt="" class="a1">
+                    </div>
+                    <div class="articles-text">
+                        <p>Startup business</p>
+                        <h5><a href="">Business opportunity in developing a reliable electric motor.</a></h5>
+                    </div>
+                    <hr>
+                    <div class="cust-details">
+                        <div class="cust-bio">
+                            <img src="../img/i1.jpg" alt="">
+                            <h5><span>by</span><a href="">Jessica</a></h5>
+                            <div class="date">
+                                20,March 2021
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gird-articales">
+                    <div class="image">
+                       <img src="../img/a2.jpg" alt="" class="a1">
+                    </div>
+                    <div class="articles-text">
+                        <p>Marketing Strategy</p>
+                        <h5><a href="">The fledgling company builds its business around AC motors.</a></h5>
+                    </div>
+                    <hr>
+                    <div class="cust-details">
+                        <div class="cust-bio">
+                            <img src="../img/i3.jpg" alt="">
+                            <h5><span>by</span><a href=""> Elizabeth</a></h5>
+                            <div class="date">
+                                20,March 2021
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gird-articales">
+                    <div class="image">
+                       <img src="../img/a3.jpg" alt="" class="a1">
+                    </div>
+                    <div class="articles-text">
+                        <p>Marketing Strategy</p>
+                        <h5><a href="">The fledgling company builds its business around AC motors.</a></h5>
+                    </div>
+                    <hr>
+                    <div class="cust-details">
+                        <div class="cust-bio">
+                            <img src="../img/i4.jpg" alt="">
+                            <h5><span>by</span><a href="">Charlotte</a></h5>
+                            <div class="date">
+                                20,March 2021
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+    </div>
+</section>
+
+<!-------------------------------------------- footer -------------------------------->
+
+<footer>
+    <div class="top-footer">
+        <div class="footer-p">
+            <div class="top-footer-title">
+                <h1>let's find out how to work together</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores modi ea voluptatum totam sed.</p>
+            
+                <form action="#">
+                    <div class="input-group">
+                        <button class=" input-group-text "> 
+                            <span class="fa-sharp fa-solid fa-paper-plane"></span>
+                        </button>
+                        <input type="email" class="form-control " placeholder="Your Email Address"  onblur="return check_email_ex()"  id="myEmile" pattern="/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/" >  
+                        <button  type="submit"  class="input-group-text Subscibe" type="button" id="button-addon2" onclick="myFunction()">Subscibe</button>
+                    </div>
+                    <div>
+                        <p id="email1"></p>
+                    </div>
+                </form>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="divide_sec"></div>
+    <div class="middleFooter">
+        <div class="container footer-p">
+            <div class="footer_grid">
+                <div class="footer_details">
+                    <div class="logo">
+                        <h6>
+                            <span class="fa-solid fa-align-right"></span>
+                            Corp Vision
+                            <p class="logo-t">vision to your future</p>
+                        </h6>
+                    </div>
+                    <p class="fd-p">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem voluptas totam maxime possimus laudantium rerum, dolores quod aspernatur magnam enim.
+                    </p>
+                    <div class="socials">
+                        <div class="icon">
+                            <a href="">
+                            <span class="fa-brands fa-facebook-f"></span>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="">
+                            <span class="fa-brands fa-twitter"></span>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="">
+                            <span class="fa-brands fa-instagram"></span>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="">
+                            <span class="fa-brands fa-linkedin-in"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_details">
+                    <h3>contact info</h3>
+                    <ul>
+                        <li>Address : Corp Vision, 343 marketing, #21 cravel 1st lane street, NY - 62617.</li>
+                        <li>Phone Number : <a href="">+1(21) 234 4567</a></li>
+                        <li>Email :<a href="">info@example.com</a></li>
+                        <li>Support : <a href="">info@support.com</a></li>
+                    </ul>
+                </div>
+                <div class="footer_details">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="">UI/UX design</a></li>
+                        <li><a href="">Creative Agency</a></li>
+                        <li><a href="">Positive Thinking</a></li>
+                        <li><a href="">Marketing Service</a></li>
+                        <li><a href="">Creative Agency</a></li>
+                    </ul>
+                </div>
+                <div class="footer_details">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="">About Company</a></li>
+                        <li><a href="">latest blog posts</a></li>
+                        <li><a href="">our gallary</a></li>
+                        <li><a href="">vision to future</a></li>
+                        <li><a href="">get in touch</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="divide_sec"></div>
+    <div class="copyFooter">
+        <div class="container footer-p">
+            <p>
+                &copy; 2021 Corp Vision. All rights reserved.
+            </p>
+        </div>
+    </div>
+</footer>
+
+</body>
+<html>
+
+
+

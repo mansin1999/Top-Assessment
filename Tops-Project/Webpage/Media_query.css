@@ -1,0 +1,580 @@
+/* ====================================== Media_query (max-width:576px) ======================================= */
+
+@media (max-width:576px) {
+    /* ========== common class css ======== */
+    .container{
+        padding: 0px 10px;
+    }
+    /* ========== header =========== */
+    nav .nav{
+        display: none;
+    }
+    nav .theme .menu-bar button{
+        display: block;
+    }
+    nav .logo{
+        flex: 2;
+    }
+    nav .logo h6{
+        font-size: 22px;
+    }
+     /* java script */
+    nav.sticky .logo{
+        flex: 2;
+    }
+    nav.sticky .logo h6{
+        font-size: 22px;
+    }
+
+    /* header .header-nav .show_menu{
+        display: block;
+        background-color: blue;
+    } */
+    /* ======== home page ============ */
+    .homepage-text{
+        
+        padding:250px 30px;
+    }
+     .homepage-text{
+        width:70%;
+    }
+    .homepage-text h1{
+        font-size: 35px;
+    }
+    .image1{
+    background-image: url(../img/b1.jpg);
+    max-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+
+}
+    /* ======== about as =========== */
+    .about-us .about-flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .about-us .about-flex .about-left{
+        padding: 5px;
+        
+    }
+    /* ======== our work ======== */
+    .ourwork .work-box{
+        display:flex;
+        flex-direction: column;
+        
+    }
+    .ourwork .work-box .right-box .grid-box{
+        padding-top: 5px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+    /* ======== services ======== */
+    .services .service-box .imag-text{
+        bottom: 140px;
+        left: 100px;
+        padding: 5px;
+    }    
+    .services .service-box{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+    }    
+    .services .service-box .imag-text a{
+        color: #3f3a64;
+        font-weight: bold;
+        font-size: 17px;
+    }
+    .services .service-box .imag-text{
+        bottom: 150px;
+        left: 100px;
+    }    
+    /* ======== gallary ======== */
+    .gallery .gallery-grid{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }      
+    /* ========== success ======== */
+    .successStory .success-flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .successStory .success-flex .rightside .success_title h1 {
+        font-size: 25px;
+    }
+    .container-s{
+        padding:0px 50px
+    }  
+
+    /* ============   articles  ================= */
+    .articles .grid-box{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 30px;
+    justify-content: center;
+   }  
+   /* ============   top footer ============== */
+   footer .top-footer .top-footer-title p{
+    width: 70%;
+   }
+   footer .top-footer .top-footer-title form{
+    margin: auto;
+    width: 80%;;
+   }
+    /* ========== middle footer ========== */
+    footer .middleFooter .footer_grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }   
+    
+} 
+
+/* ====================================== Media_query (min-width:576px) ======================================= */
+
+@media (min-width:576px) {
+    /* ========== common class css ======== */
+    .container{
+        padding: 0px 30px;
+    }
+
+    /* ========== header =========== */
+     nav .nav{
+        display: none;
+    }
+    nav .theme .menu-bar button{
+        display: block;
+    }
+    nav .logo{
+        flex: 2;
+    }
+    nav .logo h6{
+        font-size: 22px;
+    }
+    /* java script */
+    nav.sticky .logo{
+        flex: 2;
+    }
+    nav.sticky .logo h6{
+        font-size: 22px;
+    }
+    
+    /* ======== home page ============ */
+    .homepage-text{
+        width:80%;
+    }
+    .homepage-text h1{
+        font-size: 35px;
+    }
+    /* ======== about as =========== */
+    .about-us .about-flex{
+        display: flex;
+         flex-direction: column;
+    }
+     .about-us .about-flex .about-left{
+         padding: 5px;
+            
+    }
+    /* ======== our work ======== */
+    
+    .ourwork .work-box{
+         display:flex;
+         flex-direction: column;
+            
+    }
+    .ourwork .work-box .right-box .grid-box{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+    /* ======== services ======== */
+    .services .service-box{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+    }    
+    .services .service-box .imag-text{
+        bottom: 150px;
+        left: 130px;
+    }    
+
+    /* ======== gallary ======== */
+    .gallery .gallery-grid{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }   
+     /*========= success =========  */
+     .successStory .success-flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .successStory .success-flex .rightside .success_title h1 {
+        font-size: 25px;
+    }
+       .container-s{
+        padding:0px 50px
+    }  
+
+     /* ============   articles  ================= */
+     .articles .grid-box{
+     display: grid;
+     grid-template-columns: repeat(1,1fr);
+     gap: 30px;
+     justify-content: center;
+    }
+    /* ============   top footer ============== */
+   footer .top-footer .top-footer-title p{
+    width: 50%;
+
+    }
+   footer .top-footer .top-footer-title form{
+    width: 60%;
+   }
+    /*============= middle footer =========== */
+    footer .middleFooter .footer_grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }   
+
+} 
+
+/* ====================================== Media_query (min-width:768px) ======================================= */
+
+@media (min-width:768px) {
+    /* ========== common class css ======== */
+    .container{
+        padding: 0px 50px;
+    }
+
+     /* ========== header =========== */
+
+    nav .logo h6{
+        font-size: 32px;
+    }
+     /* java script */
+    nav.sticky .logo h6{
+        font-size: 32px;
+    }
+
+    /* ======== home page ============ */
+    .homepage-text{
+        width:80%;
+    }
+    .homepage-text h1{
+        font-size: 40px;        
+    
+    } 
+    /* ======== about as =========== */
+    /* about us inherit from min 576 px */
+    /* ======== our work ======== */
+    .ourwork .work-box{
+        display:flex;
+        flex-direction: column;
+    }
+    .ourwork .work-box .right-box .grid-box{
+         display: grid;
+         grid-template-columns: repeat(2, 1fr);
+         gap: 20px;
+     }
+    /* ======== services ======== */
+    .services .service-box{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+    }    
+    .services .service-box .imag-text{
+        bottom: 175px;
+        left: 60px;
+        width: 65%;
+    }  
+
+    /* ======== gallary ======== */
+    .gallery .gallery-grid{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }    
+    .gallery .image-animate .over-text .text{
+        padding: 10px;
+    }
+    
+     /*========= success =========  */
+     .successStory .success-flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .successStory .success-flex .rightside .success_title h1 {
+        font-size: 30px;
+    }
+    .container-s{
+        padding:0px 50px
+    }  
+     /* ============   articles  ================= */
+     .articles .grid-box{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+    justify-content: center;    
+     }
+    /* ============   top footer ============== */
+   footer .top-footer .top-footer-title p{
+    width: 50%;
+    }
+   footer .top-footer .top-footer-title form{
+    width: 50%;;
+    }
+    
+}
+
+
+
+ /* ====================================== Media_query (min-width:992px) ======================================= */
+ 
+ 
+ @media (min-width:992px) {
+    /* ========== common class css ======== */
+    .container{
+        padding: 0px 60px;
+    }
+
+     /* ========== header =========== */
+    nav .nav{
+        display: block;
+    }
+    nav .theme .menu-bar button{
+        display: none;
+    }
+    nav .logo{
+        flex: 2;
+    }
+     /* java script */
+     nav.sticky .logo{
+        flex: 2;
+    }
+    /* ======== home page ============ */
+    .homepage-text{
+        width:80%;
+    }
+    .homepage-text h1{
+        font-size: 40px;
+    }
+    /* ======== about as =========== */
+    .about-us .about-flex{
+        display: flex;
+        flex-direction: row;
+    }
+    .about-us .about-flex .about-left{
+        padding: 20px;
+            
+    }
+
+    /* ======== our work ======== */
+    .ourwork .work-box{
+        display:flex;
+        flex-direction: row;
+    }
+    .ourwork .work-box .right-box .grid-box{
+         display: grid;
+         grid-template-columns: repeat(2, 1fr);
+         gap: 20px;
+     }
+     
+    /* ======== services ======== */
+    .services .service-box{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+    }    
+    .services .service-box .imag-text{
+        bottom: 175px;
+        left: 30px;
+        width: 75%;
+    } 
+
+    /* ======== gallary ======== */
+    .gallery .gallery-grid{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }    
+    .gallery .image-animate .over-text .text{
+        padding: 30px;
+    }     
+    
+    /* =========== success =========== */
+    .success{
+        padding: 0px 80px;
+    }
+    .success .success-grid{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .success .success-grid .right h1{
+        color: #3f3a64;
+        font-size: 30px;
+        text-transform: capitalize ;
+        text-align:left;
+    }
+    .success .success-grid .right{
+        padding: 0px 30px 30px 30px ;
+    }
+
+     /*========= success =========  */
+     .successStory .success-flex{
+        display: flex;
+        flex-direction:row;
+    }
+    .successStory .success-flex .rightside .success_title h1 {
+        font-size: 35px;
+    }    
+    .container-s{
+        padding:0px 50px
+    }  
+    /* ============   articles  ================= */
+    .articles .grid-box{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 30px;
+        justify-content: center;
+   }
+   /* ============= top footer ================ */
+   footer .top-footer .top-footer-title p{
+    width: 45%;
+    }
+   footer .top-footer .top-footer-title form{
+    width: 45%;;
+    }
+    /* ====== middle footer ======= */
+    footer .middleFooter .footer_grid{
+        display: grid;
+        grid-template-columns: 2fr 2fr 1fr 1fr;
+        gap: 20px;
+    }       
+
+}
+
+ /* ====================================== Media_query (max-width:992px) ======================================= */
+
+ /* ========= randomly class ====== */
+@media (max-width:992px) {
+    
+    nav .show_menu{
+        display: block;
+        background-color: #000000a9;
+        position: absolute;
+        top: 85px;
+        padding-top: 20px;
+        right: 0;
+        height: auto;
+        width: 100%;
+        justify-content: center;
+    }
+    nav .show_menu .nav-flex{
+        flex-direction: column;
+        align-items: center;
+    }
+    /* java script */
+      nav.sticky .show_menu{
+        display: block;
+        background-color: #ffffffed;
+        position: absolute;
+        padding-top: 20px;
+        top: 85px;
+        right: 0;
+        height: auto;
+        width: 100%;
+        justify-content: center;
+        overflow: hidden;
+    }  
+
+
+    nav .theme .menu-bar button{
+        display: block;
+        position: relative;
+    }  
+    nav .nav .close-btn{
+        display:block;
+        height: 35px;
+        width: 35px;
+        font-size: 20px;
+        color: white;
+        border: 2px solid white;
+        background: transparent;
+        border-radius: 5px;
+        background-color: #009f4d; 
+    } 
+
+}
+
+ /* ====================================== Media_query (min-width:1200px) ======================================= */
+
+ @media (min-width:1200px) {
+    /* ========== common class css ======== */
+    .container{
+        padding: 0px 80px;
+    }
+    /* ========== header section inherit from 992px ========== */
+
+    /* ========== home page ============= */
+    .homepage-text h1{
+        width:80%;
+        font-size: 45px;
+    }
+     /* ======== about as =========== */
+     /* about us inherit from 992 px */
+    
+     /* ========= our work ===== */
+     /* about us inherit from 992 px */
+
+    /* ======== services ======== */
+    .services .service-box{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+    }    
+    .services .service-box .imag-text{
+        bottom: 145px;
+        left: 70px;
+        width: 70%;
+    }     
+
+    /* ======== gallary ======== */
+    .gallery .gallery-grid{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }    
+    .gallery .image-animate .over-text .text{
+        padding: 50px;
+    }
+     /* =========== success =========== */
+     .successStory .success-flex{
+        display: flex;
+        flex-direction:row;
+    }
+    .successStory .success-flex .rightside .success_title h1 {
+        font-size: 35px;
+    }  
+    .container-s{
+        padding:0px 150px
+    }  
+     /* ============   articles  ================= */
+     .articles .grid-box{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 30px;
+        justify-content: center;   
+     }
+     footer .top-footer .top-footer-title p{
+        width: 40%;
+        }
+       footer .top-footer .top-footer-title form{
+        width: 35%;;
+        }         
+        
+}
+
+    
+
+
